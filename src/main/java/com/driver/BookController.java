@@ -112,7 +112,7 @@ public class BookController {
     // pass author name as request param
     // getBooksByAuthor()
     @GetMapping("/get-books-by-author")
-    public ResponseEntity getAuthor(@RequestParam String author){
+    public ResponseEntity getBooksByAuthor(@RequestParam String author){
 
         for(Book b:bookList){
 
